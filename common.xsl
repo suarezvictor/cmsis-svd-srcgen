@@ -180,7 +180,7 @@
 
   <xsl:template name="irq">
     <xsl:value-of select="thi:lang-def(concat('IRQ_',name),value)"/>
-    <xsl:value-of select="thi:line-comment(description)"/>
+    <xsl:value-of select="thi:line-comment(name)"/>
   </xsl:template>
 
   <xsl:template match="thi:accessModes">
